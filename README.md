@@ -1,3 +1,5 @@
+<img width="160" height="160" alt="music-on-icon" src="https://github.com/user-attachments/assets/bfa9471f-406d-4895-a512-bbca2555c895" />
+<img width="160" height="160" alt="music-off-icon" src="https://github.com/user-attachments/assets/4f1404fd-43d6-4ab7-b79e-31b0160d28e4" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
