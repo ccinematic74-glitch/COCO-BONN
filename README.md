@@ -173,68 +173,70 @@
     <img id="header-img" src="https://via.placeholder.com/600x150" alt="Welcome to COCO BONN">
     <h1>COCO BONN</h1>
 
-    <nav>
+<nav>
         <h3><a href="#menu">Menu</a></h3>
         <h3><a href="#order-form">Place Your Order</a></h3>
-    </nav>
+</nav>
 </header>
 
 <main>
 
-    <section id="menu">
+<section id="menu">
         <h2>Menu</h2>
 
-        <article>
+<article>
             <img class="menu-img" src="burger.jpg" alt="Puppy Burger">
             <h3>Puppy Burger</h3>
             <p>Juicy burger with star sauce and fresh lettuce. <i>$12.99</i></p>
-        </article>
+</article>
 
-        <article>
+<article>
             <img class="menu-img" src="pasta.jpg" alt="Cosmic Pasta">
             <h3>Cosmic Pasta</h3>
             <p>Creamy pasta with cosmic herbs. <i>$14.50</i></p>
-        </article>
+</article>
 
-        <article>
+<article>
             <img class="menu-img" src="salad.jpg" alt="Crisp Fish Salad">
             <h3>Crisp Fish Salad</h3>
             <p>Crisp fish salad with meteor vinaigrette. <i>$9.75</i></p>
-        </article>
-    </section>
+</article>
+</section>
 
-    <section id="order-form">
+<section id="order-form">
         <h2>Place Your Order</h2>
 
-        <form id="order-form-element">
+<form id="order-form-element">
             <h3>Menu Items</h3>
 
-            <label for="burger">Puppy Burger:</label>
-            <input type="number" id="burger" name="burger" min="0">
+<label for="burger">Puppy Burger:</label>
+<input type="number" id="burger" name="burger" min="0">
 
-            <label for="pasta">Cosmic Pasta:</label>
-            <input type="number" id="pasta" name="pasta" min="0">
+<label for="pasta">Cosmic Pasta:</label>
+<input type="number" id="pasta" name="pasta" min="0">
 
-            <label for="salad">Crisp Fish Salad:</label>
-            <input type="number" id="salad" name="salad" min="0">12
+<label for="salad">Crisp Fish Salad:</label>
+<input type="number" id="salad" name="salad" min="0">12
 
-            <h3>Sides</h3>
-            <label><input type="checkbox" name="side" value="fries"> Cosmic Fries</label>
-            <label><input type="checkbox" name="side" value="soup"> Star Soup</label>
+<h3>Sides</h3>
+<label><input type="checkbox" name="side" value="fries"> Cosmic Fries</label>
+<label><input type="checkbox" name="side" value="soup"> Star Soup</label>
 
-            <h3>Add-ons</h3>
-            <label><input type="radio" name="addon" value="cheese"> Extra Cheese</label>
-            <label><input type="radio" name="addon" value="bacon"> Meteor Bacon</label>
+<h3>Add-ons</h3>
+<label><input type="radio" name="addon" value="cheese"> Extra Cheese</label>
+<label><input type="radio" name="addon" value="bacon"> Meteor Bacon</label>
 
-            <h3>Special Requests</h3>
-            <label for="requests">Notes:</label>
-            <textarea id="requests" name="requests" rows="4"></textarea>
+<h3>Special Requests</h3>
+<label for="requests">Notes:</label>
+<textarea id="requests" name="requests" rows="4"></textarea>
+<input type="submit" value="Go to Checkout">
 
-            <input type="submit" value="Go to Checkout">
-        </form>
+</form>
 
-        <div id="gif-container"></div>
-    </section>
+       
+<div id="gif-container"></div>
+
+</section>
 
 </main>
 
